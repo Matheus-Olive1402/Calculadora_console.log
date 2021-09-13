@@ -1,0 +1,39 @@
+ a pagina e por sua vez alterar os dados no console.<html>
+  <head>
+    <title> Calculadora de média</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas! via console
+      </p>
+      <p class="page-subtitle">
+        Inspecionar a pagina e por sua vez alterar os dados no console.
+        <script>
+ var nome = "matheus"
+var notaPrimeiroSemetre = 10
+var notaSegundoSemetre = 4
+var notaTerceiroSemetre = 1
+var notaQuartoSemetre = 3
+
+
+var notaFinal = (notaPrimeiroSemetre + notaSegundoSemetre + notaTerceiroSemetre + notaQuartoSemetre) / 4
+
+var notaFixada = notaFinal.toFixed(2);
+
+if(notaFixada <= 5){
+  console.log("bem vindo " + nome)
+  console.log(notaFixada + " infelizmente Reprovado")
+}else{
+  console.log("bem vindo " + nome);
+  console.log(notaFixada + " Parabéns aprovado");
+}
+
+        </script>
+      </p>
+    </div>
+    </a>
+  </body>
+</html>
